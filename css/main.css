@@ -1,0 +1,275 @@
+:root{
+  --word-color: #DDA94C;
+  --quicksand: 'Quicksand', sans-serif;
+}
+
+.main-menu.fixed-top{
+  position: fixed;
+  width: 100%;
+  top: -1px;
+  left: 0;right: 0;
+  background: #f5f5f5;
+  opacity: 0.8;
+  z-index: 999;
+  transition: .4s ease; /* フワッと出てくる */
+
+}
+
+.main-menu nav{
+  padding: 0 10px;
+}
+
+.header_area .main-menu .navbar-collapse{
+  font-family: var(--quicksand);
+}
+
+.header_area .main-menu .navbar-collapse a:hover{
+  color: var(--word-color);
+  border-bottom: solid 1px var(--word-color);
+
+}
+
+.header_area .main-menu .navbar-collapse li{
+  padding: 0 0 0 1rem;
+  text-align: center;
+}
+
+.header_area .main-menu .navbar-collapse .active{
+  border-bottom: solid 1px var(--word-color);
+  padding-left: 0;
+}
+
+.header_area .main-menu .navbar-collapse .active:hover{
+  border-bottom: none;
+}
+
+.site-main .site-title{
+  text-align: center;
+}
+
+#section2{
+  height: 7.8rem;
+}
+
+.about-us-area{
+  margin: 8rem 10%;
+}
+
+.about-us-word{
+  padding: 0 3rem 0 9rem;
+  text-align: center;
+  font-family: var(--quicksand);
+  background: url(../img/about-us-back.png)no-repeat ;
+
+}
+
+.about-us-word p{
+  line-height: 2.3rem;
+  font-size: 1.2rem;
+}
+
+.about-us-area .container-fluid .about-title{
+  color: var(--word-color);
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+#section3{
+  height: 5rem;
+}
+
+.goods{
+  margin-top: 8rem;
+  font-family: var(--quicksand);
+}
+
+.goods .goods-area-title{
+  padding-bottom: 2rem;
+}
+
+.goods .goods-area-title .col-lg-4{
+  padding: 0 3rem;
+}
+
+.goods .goods-area-title h2{
+  color: var(--word-color);
+  font-size: 4rem;
+  text-align: center;
+}
+
+.goods .goods-img a:hover img{
+  filter: brightness(1.2) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+.goods .goods-img img{
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.goods .goods-text{
+  padding: 3rem 0.5rem 3rem;
+}
+
+.goods .goods-text .goods-title{
+  padding-bottom: 1rem;
+}
+
+.online::before{
+  content: '\02192';
+  padding-right: 1rem;
+}
+
+.button{
+  text-align: center;
+  padding: 2rem 0 5rem;
+}
+
+.online{
+  display: inline-block;
+  background-color: var(--word-color);
+  border-radius: 50px;
+  color: whitesmoke;
+  border: none;
+  padding: 2rem;
+  font-size: 1.5rem;
+  box-shadow: 0px 10px 0px #C5D5F8;
+  transition: .3s;
+
+  outline: none !important;
+}
+
+.online:hover{
+  box-shadow: 0 1px #C5D5F8;
+}
+
+.store-place{
+  font-family: var(--quicksand);
+  padding-bottom: 5rem;
+}
+
+.store-place .store-place-title{
+  text-align: center;
+  color: var(--word-color);
+}
+
+.store-place .store-place-title h1{
+  font-size: 4rem;
+  padding: 3rem 0 5rem;
+}
+
+.store-place .row .store-image{
+  text-align: center;
+}
+
+.store-adress{
+  padding-left: 3.5rem;
+}
+
+.store-adress h4{
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.store-adress h6{
+  width: 17%;
+  background-color: #C5D5F8;
+  border-radius: 3rem;
+  text-align: center;
+  color: white;
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.store-adress p{
+  font-size: 1.1rem;
+}
+
+.store-adress .time p{
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.2rem;
+}
+
+.store-adress .phone{
+  padding-top: 0.6rem;
+}
+
+.store-adress .google::before{
+  content: '\0bb';
+  padding-right: 1rem;
+}
+
+.store-adress a{
+  text-decoration: none;
+  color: var(--word-color);
+  font-size: 1.5rem;
+  padding: 2.3rem 1rem 0;
+}
+
+.store-adress .google:hover{
+  border-bottom: solid 1.2px #C5D5F8;
+}
+
+.store-adress a:hover{
+  color: #C5D5F8;
+}
+
+.contact-us{
+  font-family: var(--quicksand);
+  padding: 8rem 0 4rem;
+  background: url(../img/contact.jpg)no-repeat 50% 30%;
+
+}
+
+.contact-us h1{
+  text-align: center;
+  color: var(--word-color);
+  font-size: 4rem;
+  padding-bottom: 5rem;
+}
+
+.contact-us .col-lg-8{
+  margin: 0 auto;
+}
+
+.contact-us .form-group-lg label{
+  font-size: 1.3rem;
+}
+
+.contact-us .form-group-lg p{
+  font-size: 0.9rem;
+}
+
+.contact-us .col-lg-8 .contact-btn{
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--word-color);
+  color: whitesmoke;
+  box-shadow: 0px 5px 0px #C5D5F8;
+  transition: .3s;
+  margin-top: 1.5rem;
+  padding: 0.4rem 2rem;
+
+  outline: none !important;
+}
+
+.contact-us .col-lg-8 .contact-btn:hover{
+  box-shadow: none;
+}
+
+footer{
+  padding: 20rem 0 5rem;
+  font-family: var(--quicksand);
+  background: url(../img/footer-back.png)no-repeat 30% 80%;
+}
+
+footer a{
+  text-decoration: none;
+  color:black;
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: black;
+}
