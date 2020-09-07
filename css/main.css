@@ -3,6 +3,10 @@
   --quicksand: 'Quicksand', sans-serif;
 }
 
+body{
+  width: 100%;
+}
+
 .main-menu.fixed-top{
   position: fixed;
   width: 100%;
@@ -162,6 +166,11 @@
   text-align: center;
 }
 
+.store-place .row .store-image img{
+  width: 100%;
+  height: auto;
+}
+
 .store-adress{
   padding-left: 3.5rem;
 }
@@ -272,4 +281,29 @@ footer a{
 footer a:hover{
   text-decoration: none;
   color: black;
+}
+
+/*responsible design*/
+@media only screen and (max-width: 600px){
+  .navbar-brand{
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .about-us-area img{
+    width: 100%;
+  }  
+
+  .about-us-word{
+    padding: 3px 0;
+  }
+  .about-us-word p{
+    font-size: 15px;
+  }
+  .store-place .store-adress{
+    padding: 3px;
+  }
+  .store-adress h6{
+    font-size: 7px;
+  }
 }
